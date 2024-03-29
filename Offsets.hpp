@@ -12,6 +12,7 @@ constexpr long OFF_NAME_INDEX = 0x38;                         //nameIndex
 constexpr long OFF_VIEWRENDER = 0x73f14f8;                    //[Miscellaneous]->ViewRenderer
 constexpr long OFF_VIEWMATRIX = 0x11a350;                     //[Miscellaneous]->ViewMatrix
 // Player
+constexpr long OFF_INATTACK = 0x073f2798;                     //[Buttons]->in_attack
 constexpr long OFF_HEALTH = 0x0318;                           //[RecvTable.DT_Player]->m_iHealth
 constexpr long OFF_MAXHEALTH = 0x0460;                        //[RecvTable.DT_Player]->m_iMaxHealth
 constexpr long OFF_SHIELD = 0x01a0;                           //[RecvTable.DT_TitanSoul]->m_shieldHealth
